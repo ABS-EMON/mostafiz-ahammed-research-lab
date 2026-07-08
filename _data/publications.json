@@ -58,5 +58,53 @@
 		"issued": {
 			"date-parts": [["2023"]]
 		}
+	},
+	{
+		"id": "discover-computing-2026-cvd",
+		"type": "article-journal",
+		"title": "Explainable ensemble learning model for cardiovascular disease prediction with feature optimization and data balancing",
+		"container-title": "Discover Computing",
+		"volume": "29",
+		"issue": "1",
+		"page": "44",
+		"publisher": "Springer Netherlands",
+		"source": "Springer",
+		"ISSN": null,
+		"DOI": null,
+		"author": [
+			{ "family": "Uddin", "given": "Nazim" },
+			{ "family": "Mahmud", "given": "Prince" },
+			{ "family": "Ahammed", "given": "Mostafiz" },
+			{ "family": "Uddin", "given": "Md Ashraf" },
+			{ "family": "Kazi", "given": "Mohsin" },
+			{ "family": "Talukder", "given": "Md Alamin" }
+		],
+		"issued": {
+			"date-parts": [["2026", 1, 24]]
+		}
+	},
+	{
+		"id": "qpain-2026-public-sentiment",
+		"type": "paper-conference",
+		"title": "Public Sentiment Analysis on the Interim Government of Bangladesh Using NLP",
+		"container-title": "2026 IEEE 2nd International Conference on Quantum Photonics, Artificial Intelligence & Networking (QPAIN)",
+		"page": "1-6",
+		"publisher": "IEEE",
+		"source": "IEEE",
+		"ISSN": null,
+		"DOI": null,
+		"author": [
+			{ "family": "Mamun", "given": "Abdullah Al" },
+			{ "family": "Meem", "given": "Mominur Rahman" },
+			{ "family": "Arif", "given": "Md Taslim" },
+			{ "family": "Akter", "given": "Farzana" },
+			{ "family": "Aurpa", "given": "Tanjim Taharat" },
+			{ "family": "Hasan", "given": "Sharad" },
+			{ "family": "Ahammed", "given": "Mostafiz" },
+			{ "family": "Ashrafuzzaman", "given": "Md" }
+		],
+		"issued": {
+			"date-parts": [["2026", 4, 16]]
+		}
 	}
 ]
