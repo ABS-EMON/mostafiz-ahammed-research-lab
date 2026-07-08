@@ -1,10 +1,10 @@
 ---
 layout: member
 category: student
-title: "PLACEHOLDER: Rakibul Islam"
+title: "PLACEHOLDER: ABS EMON"
 image: default-avatar.png
 role: Undergraduate Research Assistant
-permalink: 'team/rakibul-islam'
+permalink: 'team/abs-emon'
 social:
     twitter:
     linkedin:
