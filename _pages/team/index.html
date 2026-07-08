@@ -27,6 +27,30 @@ permalink: /team/
             <div class="card-body">
             <h4 class="card-title">{{ member.title }}</h4>
             <p class="card-text">{{ member.role }}</p>
+            <!-- Social Icons in Card -->
+            <ul class="list-inline list-unstyled" style="margin-top: 5px;">
+                {% if member.social.linkedin %}
+                    <li style="display: inline-block; margin-right: 8px;"><a target="blank" href="{{member.social.linkedin}}"><i class="fab fa-linkedin"></i></a></li>
+                {% endif %}
+                {% if member.social.github %}
+                    <li style="display: inline-block; margin-right: 8px;"><a target="blank" href="{{member.social.github}}"><i class="fab fa-github"></i></a></li>
+                {% endif %}
+                {% if member.social.website %}
+                    <li style="display: inline-block; margin-right: 8px;"><a target="blank" href="{{member.social.website}}"><i class="fas fa-globe"></i></a></li>
+                {% endif %}
+                {% if member.social.google-scholar %}
+                    <li style="display: inline-block; margin-right: 8px;"><a target="blank" href="{{member.social.google-scholar}}"><i class="fab fa-google"></i></a></li>
+                {% endif %}
+                {% if member.social.research-gate %}
+                    <li style="display: inline-block; margin-right: 8px;"><a target="blank" href="{{member.social.research-gate}}"><i class="fab fa-researchgate"></i></a></li>
+                {% endif %}
+                {% if member.social.twitter %}
+                    <li style="display: inline-block; margin-right: 8px;"><a target="blank" href="{{member.social.twitter}}"><i class="fab fa-twitter"></i></a></li>
+                {% endif %}
+                {% if member.social.orcid %}
+                    <li style="display: inline-block; margin-right: 8px;"><a target="blank" href="{{member.social.orcid}}"><i class="fab fa-orcid"></i></a></li>
+                {% endif %}
+            </ul>
             </div>
         </div>
     </div>
@@ -52,6 +76,30 @@ permalink: /team/
             <div class="card-body">
             <h4 class="card-title">{{ member.title }}</h4>
             <p class="card-text">{{ member.role }}</p>
+            <!-- Social Icons in Card -->
+            <ul class="list-inline list-unstyled" style="margin-top: 5px;">
+                {% if member.social.linkedin %}
+                    <li style="display: inline-block; margin-right: 8px;"><a target="blank" href="{{member.social.linkedin}}"><i class="fab fa-linkedin"></i></a></li>
+                {% endif %}
+                {% if member.social.github %}
+                    <li style="display: inline-block; margin-right: 8px;"><a target="blank" href="{{member.social.github}}"><i class="fab fa-github"></i></a></li>
+                {% endif %}
+                {% if member.social.website %}
+                    <li style="display: inline-block; margin-right: 8px;"><a target="blank" href="{{member.social.website}}"><i class="fas fa-globe"></i></a></li>
+                {% endif %}
+                {% if member.social.google-scholar %}
+                    <li style="display: inline-block; margin-right: 8px;"><a target="blank" href="{{member.social.google-scholar}}"><i class="fab fa-google"></i></a></li>
+                {% endif %}
+                {% if member.social.research-gate %}
+                    <li style="display: inline-block; margin-right: 8px;"><a target="blank" href="{{member.social.research-gate}}"><i class="fab fa-researchgate"></i></a></li>
+                {% endif %}
+                {% if member.social.twitter %}
+                    <li style="display: inline-block; margin-right: 8px;"><a target="blank" href="{{member.social.twitter}}"><i class="fab fa-twitter"></i></a></li>
+                {% endif %}
+                {% if member.social.orcid %}
+                    <li style="display: inline-block; margin-right: 8px;"><a target="blank" href="{{member.social.orcid}}"><i class="fab fa-orcid"></i></a></li>
+                {% endif %}
+            </ul>
             </div>
         </div>
     </div>
@@ -77,9 +125,32 @@ permalink: /team/
             <div class="card-body">
             <h4 class="card-title">{{ member.title }}</h4>
             <p class="card-text">{{ member.role }}</p>
+            <!-- Social Icons in Card -->
+            <ul class="list-inline list-unstyled" style="margin-top: 5px;">
+                {% if member.social.linkedin %}
+                    <li style="display: inline-block; margin-right: 8px;"><a target="blank" href="{{member.social.linkedin}}"><i class="fab fa-linkedin"></i></a></li>
+                {% endif %}
+                {% if member.social.github %}
+                    <li style="display: inline-block; margin-right: 8px;"><a target="blank" href="{{member.social.github}}"><i class="fab fa-github"></i></a></li>
+                {% endif %}
+                {% if member.social.website %}
+                    <li style="display: inline-block; margin-right: 8px;"><a target="blank" href="{{member.social.website}}"><i class="fas fa-globe"></i></a></li>
+                {% endif %}
+                {% if member.social.google-scholar %}
+                    <li style="display: inline-block; margin-right: 8px;"><a target="blank" href="{{member.social.google-scholar}}"><i class="fab fa-google"></i></a></li>
+                {% endif %}
+                {% if member.social.research-gate %}
+                    <li style="display: inline-block; margin-right: 8px;"><a target="blank" href="{{member.social.research-gate}}"><i class="fab fa-researchgate"></i></a></li>
+                {% endif %}
+                {% if member.social.twitter %}
+                    <li style="display: inline-block; margin-right: 8px;"><a target="blank" href="{{member.social.twitter}}"><i class="fab fa-twitter"></i></a></li>
+                {% endif %}
+                {% if member.social.orcid %}
+                    <li style="display: inline-block; margin-right: 8px;"><a target="blank" href="{{member.social.orcid}}"><i class="fab fa-orcid"></i></a></li>
+                {% endif %}
+            </ul>
             </div>
         </div>
     </div>
 </div>
-
 {% endfor %}
