@@ -1,40 +1,20 @@
-<div id="footer" class="panel">
-  <div class="panel-footer">
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-sm-4">
-				<p>{{ site.title }}</p>
-				<img class="img-fluid" src="{{ site.baseurl }}/images/logo/lab-logo.png"
-				     style="max-width: 100px;">
-			</div>
+<footer id="footer" class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <img src="{{ site.baseurl }}/images/logo/lab-logo.png" alt="{{ site.title }}" class="footer-logo">
+      <span class="footer-title d-none d-sm-inline">{{ site.title }}</span>
+    </div>
 
-			<div class="col-sm-4">
-				<p>Links</p>
-				<ul class="list-unstyled">
-					<li><a href="https://github.com/Mostafiz24" target="_blank">GitHub</a></li>
-					<li><a href="https://scholar.google.com/citations?user=T_ehJtgAAAAJ&hl=en" target="_blank">Google Scholar</a></li>
-					<li><a href="https://bd.linkedin.com/in/mostafiz-ahammed-7b4266106" target="_blank">LinkedIn</a></li>
-					<li><a href="https://ire.uftb.ac.bd/profile/Mostafiz" target="_blank">University Profile</a></li>
-				</ul>
-			</div>
+    <nav class="footer-links" aria-label="Footer">
+      <a href="https://github.com/Mostafiz24" target="_blank" rel="noopener" title="GitHub"><i class="fab fa-github"></i></a>
+      <a href="https://scholar.google.com/citations?user=T_ehJtgAAAAJ&hl=en" target="_blank" rel="noopener" title="Google Scholar"><i class="fab fa-google"></i></a>
+      <a href="https://bd.linkedin.com/in/mostafiz-ahammed-7b4266106" target="_blank" rel="noopener" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      <a href="mailto:mostafizs154@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+    </nav>
 
-			<div class="col-sm-4">
-				<p>Contact</p>
-				<p>
-					 University of Frontiner Technology Bangaldesh <br>
-					 UFTB-1750, Bangladesh<br>
-					mostafizs154@gmail.com<br>
-					+880 1884 307860
-				</p>
-			</div>
-		</div>
-
-		<div class="row mt-3">
-			<p class="text-center">Copyright, 2026 — {{ site.title }}</p>
-		</div>
-	</div>
+    <p class="footer-copyright">&copy; 2026 {{ site.title }}</p>
   </div>
-</div>
+</footer>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="{{ site.url }}{{ site.baseurl }}/js/bootstrap.min.js"></script>
@@ -53,4 +33,36 @@
         });
     });
   }
+</script>
+
+<!-- PWA: custom "Install App" button -->
+<script>
+  (function () {
+    var deferredPrompt = null;
+    var installBtn = document.getElementById('pwa-install-btn');
+
+    window.addEventListener('beforeinstallprompt', function (event) {
+      event.preventDefault();
+      deferredPrompt = event;
+      if (installBtn) {
+        installBtn.hidden = false;
+      }
+    });
+
+    if (installBtn) {
+      installBtn.addEventListener('click', function () {
+        if (!deferredPrompt) return;
+        installBtn.hidden = true;
+        deferredPrompt.prompt();
+        deferredPrompt.userChoice.finally(function () {
+          deferredPrompt = null;
+        });
+      });
+    }
+
+    window.addEventListener('appinstalled', function () {
+      if (installBtn) installBtn.hidden = true;
+      deferredPrompt = null;
+    });
+  })();
 </script>
