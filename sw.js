@@ -13,7 +13,6 @@ const PRECACHE_URLS = [
   BASEURL + "/offline.html",
   BASEURL + "/css/main.css",
   BASEURL + "/images/favicon.ico",
-  BASEURL + "/images/logo/lab-logo.png",
   BASEURL + "/images/slider/slider-image.png",
   BASEURL + "/manifest.json"
 ];
