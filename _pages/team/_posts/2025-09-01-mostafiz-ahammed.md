@@ -42,5 +42,5 @@ Mostafiz Ahammed is a Lecturer in the Department of Internet of Things and Robot
 
 **Contact**
 
-Chandpur Science and Technology University, Chandpur-3600, Bangladesh
+University of Frontier Technology Bangladesh, UFTB-1750, Bangladesh
 Email: [mostafizs154@gmail.com](mailto:mostafizs154@gmail.com) · Phone: +880 1884 307860
