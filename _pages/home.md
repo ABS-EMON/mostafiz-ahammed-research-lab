@@ -1,7 +1,7 @@
 ---
 title: "Home"
 layout: homelay
-excerpt: "AI & Data Science Research Lab — led by Mostafiz Ahammed"
+excerpt: "AI & Robotics Research Lab — led by Mostafiz Ahammed"
 sitemap: false
 permalink: /
 ---
